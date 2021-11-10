@@ -33,7 +33,7 @@ public class Client implements ActionListener{
 
         p1 = new JPanel();
         p1.setLayout(null);
-        p1.setBackground(new Color(7, 94, 84));
+        p1.setBackground(new Color(0, 0, 100));
         p1.setBounds(0, 0, 450, 70);
         f1.add(p1);
 
@@ -54,22 +54,8 @@ public class Client implements ActionListener{
         Image i5 = i4.getImage().getScaledInstance(60, 60, Image.SCALE_DEFAULT);
         ImageIcon i6 = new ImageIcon(i5);
         JLabel l2 = new JLabel(i6);
-        l2.setBounds(40, 5, 60, 60);
+        l2.setBounds(140, 5, 60, 60);
         p1.add(l2);
-
-        ImageIcon i7 = new ImageIcon(ClassLoader.getSystemResource("chat/app/icons/video.png"));
-        Image i8 = i7.getImage().getScaledInstance(30, 30, Image.SCALE_DEFAULT);
-        ImageIcon i9 = new ImageIcon(i8);
-        JLabel l5 = new JLabel(i9);
-        l5.setBounds(290, 20, 30, 30);
-        p1.add(l5);
-
-        ImageIcon i11 = new ImageIcon(ClassLoader.getSystemResource("chat/app/icons/phone.png"));
-        Image i12 = i11.getImage().getScaledInstance(35, 30, Image.SCALE_DEFAULT);
-        ImageIcon i13 = new ImageIcon(i12);
-        JLabel l6 = new JLabel(i13);
-        l6.setBounds(350, 20, 35, 30);
-        p1.add(l6);
 
         ImageIcon i14 = new ImageIcon(ClassLoader.getSystemResource("chat/app/icons/3icon.png"));
         Image i15 = i14.getImage().getScaledInstance(13, 25, Image.SCALE_DEFAULT);
@@ -82,14 +68,14 @@ public class Client implements ActionListener{
         JLabel l3 = new JLabel("Cat");
         l3.setFont(new Font("SAN_SERIF", Font.BOLD, 18));
         l3.setForeground(Color.WHITE);
-        l3.setBounds(110, 15, 100, 18);
+        l3.setBounds(210, 15, 100, 18);
         p1.add(l3);
 
 
         JLabel l4 = new JLabel("Active Now");
         l4.setFont(new Font("SAN_SERIF", Font.PLAIN, 14));
         l4.setForeground(Color.WHITE);
-        l4.setBounds(110, 35, 100, 20);
+        l4.setBounds(210, 35, 100, 20);
         p1.add(l4);
 
         Timer t = new Timer(1, new ActionListener(){
@@ -133,7 +119,7 @@ public class Client implements ActionListener{
 
         b1 = new JButton("Send");
         b1.setBounds(320, 655, 123, 40);
-        b1.setBackground(new Color(7, 94, 84));
+        b1.setBackground(new Color(0, 0, 100));
         b1.setForeground(Color.WHITE);
         b1.setFont(new Font("SAN_SERIF", Font.PLAIN, 16));
         b1.addActionListener(this);
@@ -178,7 +164,7 @@ public class Client implements ActionListener{
 
         JLabel l1 = new JLabel("<html><p style = \"width : 150px\">"+out+"</p></html>");
         l1.setFont(new Font("Tahoma", Font.PLAIN, 16));
-        l1.setBackground(new Color(37, 211, 102));
+        l1.setBackground(new Color(28, 117, 255));
         l1.setOpaque(true);
         l1.setBorder(new EmptyBorder(15,15,15,50));
 
