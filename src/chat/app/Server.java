@@ -88,10 +88,12 @@ public class Server implements ActionListener{
 
 
         a1 = new JPanel();
-        a1.setBounds(5, 75, 440, 570);
         a1.setFont(new Font("SAN_SERIF", Font.PLAIN, 16));
-        f1.add(a1);
 
+        JScrollPane sp = new JScrollPane(a1);
+        sp.setBounds(5, 75, 440, 570);
+        sp.setBorder(BorderFactory.createEmptyBorder());
+        f1.add(sp);
 
         t1 = new JTextField();
         t1.setBounds(5, 655, 310, 40);
