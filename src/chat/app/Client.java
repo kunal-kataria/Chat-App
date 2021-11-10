@@ -9,7 +9,6 @@ import java.io.*;
 
 import java.util.Calendar;
 import java.text.SimpleDateFormat;
-import javax.swing.*;
 
 public class Client implements ActionListener{
 
@@ -182,7 +181,7 @@ public class Client implements ActionListener{
     }
 
     public static void main(String[] args){
-        new Client().f1.setVisible(true);
+        new Client().t1.setVisible(true);
 
         try{
 

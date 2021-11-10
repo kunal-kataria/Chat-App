@@ -180,8 +180,7 @@ public class Server implements ActionListener{
     }
 
     public static void main(String[] args){
-        new Server().f1.setVisible(true);
-
+        new Server().t1.setVisible(true);
         String msginput = "";
         try{
             skt = new ServerSocket(6001);
@@ -197,8 +196,8 @@ public class Server implements ActionListener{
                     JPanel left = new JPanel(new BorderLayout());
                     left.add(p2, BorderLayout.LINE_START);
                     vertical.add(left);
-                    f1.validate();
-                }
+                    f1.validate ();
+               }
 
             }
         }catch(Exception e){}
